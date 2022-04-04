@@ -61,16 +61,47 @@ header {
     flex-wrap: wrap;
     background-color: #fbdcc7;
     width: 100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 25px 5px 25px 5px;
 }
 
 .information-box {
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: center;
 }
+
+.link-catalog {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.preview-cats {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.preview-cats-side {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 4px;
+}
+
+.img-cats-config-size-main {
+    width: 25%;
+}
+
+.img-cats-config-size {
+    width: 35%;
+}
+
 
 .img-life-is-better {
     width: 25%;
