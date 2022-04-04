@@ -109,13 +109,20 @@ footer a {
     color: #000000;
 }
 
-@media (min-width: 1600px) {
+@media (max-width: 1600px) {
     .preview-cats {
         padding: 50px 0 10px 0;
     }
 }
 
-@media (min-width: 1360px) {
+@media (max-width: 1454.55px) {
+
+    .preview-cats {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 1360px) {
     
     .container {
         padding-bottom: 10px;
