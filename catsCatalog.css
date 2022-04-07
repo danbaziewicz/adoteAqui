@@ -1,0 +1,38 @@
+main {
+    background-color: #fbdcc7;
+}
+
+.title-adoption {
+    text-align: center;
+}
+
+.adoption-container {
+    padding-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.div-cats-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2%;
+    
+}
+
+.div-cats-display:hover {
+    transform: scale(1.1);
+}
+
+.img-cats-sizing {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.cat-names {
+    font-weight: bold;
+}
